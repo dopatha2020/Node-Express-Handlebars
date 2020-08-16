@@ -1,0 +1,23 @@
+<h1>Eat-Da-Burger!</h1>
+
+
+<ul>
+  {{#each data}}
+    {{#unless this.devoured}}
+     
+    {{/unless}}
+  {{/each}}
+</ul>
+
+
+<ul>
+  {{#each data}}
+    {{#if this.devoured}}
+
+    {{/if}}
+  {{/each}}
+</ul>
+
+
+  <button type="submit">Add Burger</button>
+</form>
